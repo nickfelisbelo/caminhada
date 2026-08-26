@@ -8,7 +8,7 @@ void main() {
       valueListenable: AppTheme.modo,
       builder: (context, themeMode, _) {
         return MaterialApp(
-          title: "Anotações",
+          title: "Caminhadas",
           theme: AppTheme.temaClaro,
           darkTheme: AppTheme.temaEscuro,
           themeMode: themeMode,
